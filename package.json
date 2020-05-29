@@ -1,0 +1,21 @@
+{
+  "name": "fraser2.0",
+  "version": "1.0.0",
+  "description": "Automation test for Merge Case and Contract",
+  "main": "test.js",
+  "scripts": {
+    "start": "SET NODE_ENV=dev && node test.js",
+    "test": "mocha --recursive Models/allContracts.tests.js --timeout 500000"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chromedriver": "^2.41.0",
+    "mssql": "^6.0.1",
+    "readline-sync": "^1.4.9",
+    "selenium-webdriver": "^4.0.0-alpha.1"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
+}
